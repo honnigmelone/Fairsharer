@@ -18,4 +18,4 @@ fair_sharer(values, num_iterations, share)
 
 ## Installation 🥝
 
-``` $ pip install -r requirements.txt
+``` $ pip install -r requirements.txt```
