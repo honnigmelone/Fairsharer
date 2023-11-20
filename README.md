@@ -16,6 +16,6 @@ share = 0.1  # Share to be redistributed
 
 fair_sharer(values, num_iterations, share)
 
-## Installation
+## Installation 🥝
 
-$ pip install -r requirements.txt
+```$ pip install -r requirements.txt
