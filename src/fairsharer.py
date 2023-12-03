@@ -40,6 +40,8 @@ def fair_sharer(values, num_iterations, share=0.1):
     Integer to set the number of iterations
     """
     for _ in range(num_iterations):
+
+
         highest_value = max(values)
         value_share = highest_value * share
         # Creating a copy of values for simultaneous updates
@@ -63,5 +65,5 @@ def fair_sharer(values, num_iterations, share=0.1):
 print(fair_sharer([0, 1000, 800, 0], 2))
 
     
-print(fair_sharer([1000, 0, 800, 0], 3))
+print(fair_sharer([800, 0, 800, 0], 1))
 
