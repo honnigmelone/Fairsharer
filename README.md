@@ -2,11 +2,11 @@
 
 ## Overview 🍄
 
-The `fairsharer` repository hosts a Python program designed for the fair distribution of values across a group.
+The Fairsharer repository hosts a Python program designed for the fair distribution of values across a group.
 
 ## Functionality 🌵
 
-The `fair_sharer` function operates by redistributing a share of the highest value in a list to its neighboring elements, over a specified number of iterations.
+The fair_sharer function operates by redistributing a share of the highest value in a list to its neighboring elements, over a specified number of iterations.
 
 ## Explanation 👽
 
