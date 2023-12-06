@@ -1,29 +1,3 @@
-# def fair_sharer(values, num_iterations, share=0.1):
-#     for _ in range(num_iterations):
-#         # get index of highest value and the share
-#         highest_value =  max(values)
-#         value_share = highest_value * share
-#         index = values.index(highest_value)
-
-#         values[index] -= value_share * 2
-
-#         # calculate new values and save as values_new
-#         if index != 0 and index != len(values):
-#           values[index - 1] += value_share
-#           values[index + 1] += value_share
-
-#         # get circular shares for left and rightmost highest number
-#         if index == 0:
-#            values[len(values) - 1] += value_share
-#            values[index + 1] += value_share
-        
-#         if index == len(values):
-#            values[0] += value_share
-#            values[index - 1] += value_share
-
-#     values_new = values
-#     return values_new
-
 def fair_sharer(values, num_iterations, share=0.1):
     """
     Runs num_iterations.
